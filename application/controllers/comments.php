@@ -1,10 +1,22 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+/**
+ *for manipulate comments module
+ *
+ *@package controllers
+ *
+ */
+
 
 class Comments extends CI_Controller {
     
     
          
-    
+    /**
+     *insert a new comment witch belong to certain post
+     *
+     *@param int $postID  pass ID of post
+     *
+     */
     function add_comment($postID){
       
         
